@@ -32,7 +32,7 @@ type example struct {
 }
 
 func main() {
-	es := encryptor.encryptor.NewEncryptionService(&encryptorExample{})
+	es := encryptor.NewEncryptionService(&encryptorExample{})
 	exampl := example{
 		Id:     1,
 		Name:   "nima",
