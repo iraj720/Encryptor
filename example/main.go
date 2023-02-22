@@ -1,7 +1,7 @@
 package main
 
 import (
-	"encryptor"
+	"github.com/iraj720/encryptor"
 	"fmt"
 )
 
@@ -32,7 +32,7 @@ type example struct {
 }
 
 func main() {
-	es := encryptor.NewEncryptionService(&encryptorExample{})
+	es := encryptor.encryptor.NewEncryptionService(&encryptorExample{})
 	exampl := example{
 		Id:     1,
 		Name:   "nima",
